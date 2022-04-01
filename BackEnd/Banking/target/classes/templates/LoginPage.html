@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+
+<style>
+
+#full{
+margin:0;
+box-sizing:border-size;
+padding:0;
+background-color:rgb(1, 58, 117);
+height:100vh;
+
+
+}
+#head{
+height:15%;
+background-color:rgb(1, 58, 117);
+padding:5px;
+display:flex;
+}
+#body{
+height:77%;
+background-color:white;
+margin-left:15px;
+border-top-left-radius:10px;
+padding:20px;
+position:static;
+display:flex;
+}
+#title{
+color:white;
+padding-left:40px;
+}
+#login{
+width:55%;
+height:58%;
+background-color:white;
+border:2px solid black;
+padding:30px 30px;
+margin-top:70px;
+margin-left:-90px;
+border-radius:10px;
+}
+#regis{
+margin-left:15px;
+background-color:rgb(1, 58, 117);
+width:45%;
+height:64%;
+border:2px solid black;
+margin-top:70px;
+border-radius:10px;
+padding:10px;
+color:white;
+padding-top:20px;
+}
+#logint{
+color:rgb(1, 58, 117);
+padding-left:40px;
+
+}
+.input{
+margin:20px;
+width:90%;
+height:30px;
+}
+input{
+display:block;
+background:transparent;
+border:none;
+outline:none;
+border-bottom:1px solid black;
+color:rgb(0, 0, 0);
+padding:10px;
+}
+
+#lobtn{
+background-color:rgb(1, 58, 117);
+color:white;
+margin:30px 37%;
+width:20%;
+border-radius:10px;
+
+}
+a{
+
+padding-bottom:10px;
+color:black;
+}
+
+.bx{
+width:25%;
+height:20px;
+background-color:rgb(1, 58, 117) ;
+color:white;
+display:inline;
+position:absolute;
+top:98%;
+left:-50%;
+margin-left:20px;
+
+}
+#nregis {
+padding:10px 35%;
+}
+#breg{
+background-color:white;
+color:rgb(1, 58, 117);
+margin:30px 35%;
+width:30%;
+border-radius:10px;
+}
+#ttour{
+padding-left:40%;
+}
+#fu{
+padding-left:25%;
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="full">
+<div id="head">
+<h2 id="title">Internet Banking</h2>
+
+</div>
+
+<div id="body">
+<h2 id="logint">Login</h2>
+
+
+<div id="login">
+<form>
+<input class="input" placeholder="Enter Username" type="text">
+<input class="input" placeholder="Password" type="password">
+<input id="lobtn" type="button" value="Login">
+<a id="fu" href="forgerusername">Forget your username?</a>
+<a id="fp" href="forgerpassword">Forget your password?</a>
+</form>
+
+</div>
+<div id="regis">
+<form>
+<h3 id="nregis" >Not registered yet?</h3>
+<p>Make the most of your day by banking online with Commercial Bank Internet Banking</p>
+<input id="breg" type="button" value="Register Now">
+<hr>
+<h4 id="ttour" >Take a video tour</h4>
+</form></div>
+
+<div class="bx" id="bx1">Safe</div>
+<div class="bx" id="bx2">Anywhere,Anytime</div>
+<div class="bx" id="bx3">No More Waiting</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
